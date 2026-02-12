@@ -3,9 +3,9 @@ public class Main {
 
         Pedido pedido1 = new Pedido("Carlos");
 
-        pedido1.agregarArticulo(new Articulo("Hamburguesa", 2, 8.50));
+        pedido1.agregarArticulo(new Articulo("Chocos", 2, 8.50));
         pedido1.agregarArticulo(new Articulo("Refresco", 1, 2.50));
-        pedido1.agregarArticulo(new Articulo("Patatas", 1, 3.00));
+        pedido1.agregarArticulo(new Articulo("Papas Arrugadas", 1, 3.00));
 
         pedido1.mostrarResumen();
 
