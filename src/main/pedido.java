@@ -37,4 +37,25 @@ public class pedido{
             System.out.println("No se puede añadir más articulo");
         }
     }
+
+    public void estados(estadopedido nuevoestado) {
+        if (nuevoestado.ordinal() >= estado.ordinal()){
+            estado = nuevoestado;
+        } else {
+            System.out.println("estado cambiado de tu pedido, no puede voler atrás")
+        }
+
+        public void info(){
+            System.out.println("Id de pedido: " + identificador);
+            System.out.println("Nombre de cliente: " + cliente);
+            System.out.println("Id de pedido: " + direccion);
+            System.out.println("Id de pedido: " + estado);
+
+            for (int i = 0; i < num; i++) {
+                System.out.println(articulo[i].getNombre() + " x" + articulos[i].getCantidad() + " = " artiuclos[i].calculartotal());
+            }
+        }
+
+        System.out.println("Total : " + calculartotal);
+    }
 }
